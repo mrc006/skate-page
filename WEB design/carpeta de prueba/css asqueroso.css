@@ -1,0 +1,13 @@
+h1{
+    background-color: red;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2jfr;
+    grid-column-gap: 2px;
+    grid-row-gap: 28px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }

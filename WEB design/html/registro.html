@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+</head>
+<body>
+    <h1 class="registrarse">Crea tu cuenta</h1>
+    <form action="index.html">
+        <input type="text" id="usuario nuevo" placeholder="Nombre" required>
+        <br>
+        <input type="email" placeholder="Corre electronico" required>
+        <br>
+        <br>
+        <label for="date">Fecha de nacimiento</label>
+        <br>
+        <input type="date" id="fecha de nacimiento" name="fecha de nacimiento" max="2024-0-0">
+        <br>
+        <br>
+        <label for="radio">Elige tu sexo</label>
+        <br>
+        <input type="radio" name="sexo" value="hombre" required> hombre
+        <input type="radio" name="sexo" value="mujer" required> mujer
+        <input type="radio" name="sexo" value="personalizado"> personalizado
+        <br>
+        <input type="checkbox" name="requisitos" value="aceptar terminos" required> Acepto todos los terminos y
+        servicios
+        <br>
+        <br>
+        <button>siguiente</button>
+    </form>
+</body>
+
+</html>

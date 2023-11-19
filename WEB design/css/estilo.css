@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://wallhere.com/es/wallpaper/156773);
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+.navHeader{
+    color: black;
+    background-color: rgb(255, 255, 100)
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    overflow: hidden;
+    background-color: black;
+}
+
+.listaDeMenu{
+    list-style-type: none;
+    float: left;
+}
+.listaDeMenu a{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+        
+}
+.videoCabezera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://wallhere.com/es/wallpaper/156773);
+}
+
+
+
+
+/*video {
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    height: 50%;
+    width: 100%;
+}
